@@ -70,5 +70,8 @@
                "output": "build/",
                "app": "."
           }
+     },
+     "dependencies": {
+          "jquery": "^3.4.1"
      }
 }
