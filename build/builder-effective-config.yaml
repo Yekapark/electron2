@@ -1,0 +1,39 @@
+directories:
+  output: build/
+  buildResources: resources/installer/
+  app: .
+productName: productTest
+appId: kr.co.productTest.www
+asar: true
+protocols:
+  name: productTest
+  schemes:
+    - productTest
+mac:
+  target:
+    - default
+  icon: ./electron-root/favicon.ico
+dmg:
+  title: tournant
+  icon: ./electron-root/favicon.ico
+win:
+  target:
+    - zip
+    - nsis
+  icon: ./electron-root/favicon.ico
+linux:
+  target:
+    - AppImage
+    - deb
+    - rpm
+    - zip
+    - tar.gz
+  icon: ./electron-root/favicon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: false
+  installerLanguages:
+    - en_US
+    - ko_KR
+  language: '1042'
+electronVersion: 8.2.0

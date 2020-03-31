@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: productTest-Setup-1.0.0.exe
+    sha512: Ke/NJ5dJrjrE6GZjQ3N8q1XfhCmiJH3f3tCug4tfEq8sd4z2AWSMdsgDmcCsYPWh1ws2wBcGZ5x3uoQ/orlPyQ==
+    size: 49816046
+path: productTest-Setup-1.0.0.exe
+sha512: Ke/NJ5dJrjrE6GZjQ3N8q1XfhCmiJH3f3tCug4tfEq8sd4z2AWSMdsgDmcCsYPWh1ws2wBcGZ5x3uoQ/orlPyQ==
+releaseDate: '2020-03-31T05:09:10.717Z'
